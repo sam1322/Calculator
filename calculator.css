@@ -1,0 +1,48 @@
+body{
+	/*box-sizing:border-box;*/
+	font-family: 'Montserrat', sans-serif;
+}
+
+ 
+
+.container{
+	width:600px;
+	border:1px solid lightgrey;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.input{
+/*	width:100%;*/
+	overflow-x: auto;
+	border:1px solid lightgrey;
+	height:100px;
+	margin-bottom: 15px;
+	padding-right:15px;
+	border-radius: 5px;
+	font-size:4rem;
+	text-align: right;
+ 
+}
+.row{
+	display:flex;
+}
+
+.result,.clear,.del,.plusminus,.op ,.num{
+	font-size: 1.5rem;
+	border:1px solid lightgrey;
+	padding: 20px 40px;
+	margin:10px;
+	width:50px;
+	border-radius: 5px;
+
+}
+
+.clear,.del,.plusminus,.op{
+	background:Lightgrey;
+}
+#bottom{
+	 position: absolute;
+  bottom: 0;
+  left: 0;
+}
